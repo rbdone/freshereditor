@@ -223,4 +223,4 @@ var shortcut = {
 		else if (ele.removeEventListener) ele.removeEventListener(type, callback, false);
 		else ele['on' + type] = false;
 	}
-}
+};
