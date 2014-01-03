@@ -313,7 +313,7 @@
           }
           return $this;
         });
-        $("a.toolbar-cmd").on('click', function() {
+        $(options.toolbar_selector + " a.toolbar-cmd").on('click', function() {
           var ceNode, cmd, dummy, range;
           cmd = $(this).attr('command');
           if ($(this).attr('userinput') === 'yes') {
