@@ -434,21 +434,6 @@
             method: function() {
               return document.execCommand('underline', false, null);
             }
-          }, {
-            keys: 'tab',
-            method: function() {
-              return document.execCommand('indent', false, null);
-            }
-          }, {
-            keys: 'Ctrl+tab',
-            method: function() {
-              return document.execCommand('indent', false, null);
-            }
-          }, {
-            keys: 'Shift+tab',
-            method: function() {
-              return document.execCommand('outdent', false, null);
-            }
           }
         ];
         $.each(shortcuts, function(index, elem) {
